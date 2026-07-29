@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+
+
+<!-- headタグ：ページ全体の付加情報を記述する場所 -->
+<head>
+<!-- charset属性：ファイルの文字コード    -->
+    <meta charset="UTF-8">
+
+    <!-- viewport:描画範囲の設定、レスポンシブデザインのために必要な設定 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- name="author":ページ作成者を指定しておく -->
+    <meta name="author" content="Osamu HASEGAWA">
+
+<!-- name="keywords":ページ内容を表すキーワード（３～５つくらい） -->
+    <meta name="keywords" content="html, css, javascript">
+    
+    <title>3回目：大学生のための情報・デジタルリテラシー</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <header>
+       <!-- h1-6：見出し、章・節・項のような文書構造に合わせた見出し -->
+        
+        <section>
+            <h1>試合結果一覧</h1>
+            <table>
+                <tr>
+                    <th>対戦相手</th>
+                    <th>結果</th>
+                </tr>
+                <tr>
+                    <td>芝浦工大</td>
+                    <td>0－4　敗戦</td>
+                </tr>
+                <tr>
+                    <td>一橋大</td>
+                    <td>1－0　勝利</td>
+                </tr>
+                <tr>
+                    <td>成蹊大</td>
+                    <td>2－0　勝利</td>
+                </tr>
+                <tr>
+                    <td>東京大</td>
+                    <td>3－0　敗戦</td>
+                </tr>
+                <tr>
+                    <td>防衛大</td>
+                    <td>2－1　勝利</td>
+                </tr>
+                <tr>
+                    <td>日本文化大</td>
+                    <td>3－1　勝利</td>
+                </tr>
+
+            </table>
+            <img src="../第４回/img/S__315703299.jpg" alt="試合後写真" height="300" width="400">
+
+            >
+        </section>
+        <section>
+            <p1 id="match_result">試合結果の表示</p1>
+            <button onclick="checkResult()">試合結果を確認 </button>
+        </section>
+        
+        
+        <section>
+            <h2>サッカー部 3原則</h2>
+            <dl>
+                <dt>切り替え</dt>
+                <dd>奪われた後の切り替えを早く</dd>
+                <dt>球際</dt>
+                <dd>守備時の球際を強く</dd>
+                <dt>運動量</dt>
+                <dd>すべての局面において運動量を増やす</dd>
+            </dl>
+        </section>
+        <h3>目標</h3>
+        <p>チーム全員、一致団結して目標に向けて活動しています。
+            残り試合も少なくなり、1試合1試合の重みが大きくなってきたので、より気を引き締めて
+            目標を達成できるように頑張っていきます。
+        </p>
+        <a href="./index.html">トップへ戻る</a>
+        <nav>
+            ホーム
+            タグリファレンス
+            問い合わせ
+        </nav>
+    </header>
+
+   
+    <footer>
+        copyright &copy; Hideaki HOSAKA, ALL Right Reserved
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
