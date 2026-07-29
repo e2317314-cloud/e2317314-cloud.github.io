@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+
+
+<!-- headタグ：ページ全体の付加情報を記述する場所 -->
+<head>
+<!-- charset属性：ファイルの文字コード    -->
+    <meta charset="UTF-8">
+
+    <!-- viewport:描画範囲の設定、レスポンシブデザインのために必要な設定 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- name="author":ページ作成者を指定しておく -->
+    <meta name="author" content="Osamu HASEGAWA">
+
+<!-- name="keywords":ページ内容を表すキーワード（３～５つくらい） -->
+    <meta name="keywords" content="html, css, javascript">
+    
+    <title>3回目：大学生のための情報・デジタルリテラシー</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <header>
+       <!-- h1-6：見出し、章・節・項のような文書構造に合わせた見出し -->
+        <h1 class="enav">活動内容</h1>
+        <p1 id="practice">ここに練習メニューが表示されます</p1>
+        <button onclick="showPractice(0)">パス練習</button>
+        <button onclick="showPractice(1)">シュート練習</button>
+        <button onclick="showPractice(2)">対人練習</button>
+        <button onclick="showPractice(3)">ゲーム形式</button>
+        <section>
+        <h2 class="fnav">練習日一覧</h2>
+            <ul class="abnav">
+                <li>月曜日：オフ</li>
+                <li>火曜日：フィジカル</li>
+                <li>水曜日：ランメニュー、対人形式</li>
+                <li>木曜日：オフ</li>
+                <li>金曜日：ゲーム形式</li>
+                <li>土曜日：調整</li>
+                <li>日曜日：公式戦</li>
+             </ul>
+        </section>
+    
+        <section>
+            <h3>練習内容</h3>
+            <table class="atable">
+                <caption>スケジュール表</caption>
+                <tr>
+                    <th></th>
+                    <th>月曜日</th>
+                    <th>火曜日</th>
+                    <th>水曜日</th>
+                    <th>木曜日</th>
+                    <th>金曜日</th>
+                    <th>土曜日</th>
+                    <th>日曜日</th>
+                </tr>
+                <tr>
+                    <th>練習内容</th>
+                    <td>オフ</td>
+                    <td>フィジカル</td>
+                    <td>ラン、対人</td>
+                    <td>オフ</td>
+                    <td>ゲーム</td>
+                    <td>調整</td>
+                    <td>公式戦</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h4>試合動画</h4>
+            <video controls width="400"><source src="../第４回/video/soccer.mp4"></video>
+        </section>
+        <section>
+            <h5>応援音声</h5>
+            <audio controls><source src="../第４回/audio/音声.mp4"></audio>
+        </section>
+        <a href="./3.html">試合結果ページ</a>
+        <nav>
+            ホーム
+            タグリファレンス
+            問い合わせ
+        </nav>
+    </header>
+
+   
+
+    <footer>
+        copyright &copy; Hideaki HOSAKA, ALL Right Reserved
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
