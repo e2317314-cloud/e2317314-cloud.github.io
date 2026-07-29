@@ -1,0 +1,82 @@
+@charset "utf-8";
+.anav > li {
+    font-size: large;
+    list-style: none;
+    display: inline;
+    margin: 0 10px 0 0 ;
+    padding: 8px 4px;
+    border: 2px solid;
+    border-radius: 6px;
+    background: linear-gradient(white, rgb(165, 85, 85));
+}
+.bnav {
+    text-align: center;
+}
+.cnav {
+    border: 2px dashed;
+    display: inline-block;
+}
+.aa:link{
+    color: blue;
+}
+.aa:visited{
+    color: red;
+}
+.dnav{
+    background-color: coral;
+    display: inline-block;
+}
+
+.enav{
+    border: 2px outset;
+    display: inline-block;
+    background-color:gold;
+    text-align: center;
+}
+.abnav>li{
+    list-style: circle;
+}
+.atable{
+    border-top: 2px dashed;
+    border-bottom: 2px dashed;
+    border-right: 2px dashed;
+    border-left: 2px dashed;
+
+}
+th{
+    border: 1px solid black;
+    background-color: gold;
+}
+td{
+    border: 1px solid;
+    border-radius: 8px;
+}
+h1{
+    border: 2px solid;
+    display: inline-block;
+    background-color: coral;
+} 
+h2{
+    border: 3px dashed;
+    display: inline-block;
+    border-radius: 8px;
+}
+dl{
+    background-image: url(../第４回/img/133665519844830591.jpg);
+    background-size: 100%;
+}
+p{
+    border: 5px solid;
+    background-color: gold;
+}
+p::first-letter{
+    font-size: 2em;
+    font-weight: bold;
+}
+h3{
+    font-size: 2em;
+    text-align: center;
+}
+    
+ 
+   
