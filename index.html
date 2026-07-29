@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<!-- headタグ：ページ全体の付加情報を記述する場所 -->
+
+
+<head>
+<!-- charset属性：ファイルの文字コード    -->
+    <meta charset="UTF-8">
+
+    <!-- viewport:描画範囲の設定、レスポンシブデザインのために必要な設定 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- name="author":ページ作成者を指定しておく -->
+    <meta name="author" content="Osamu HASEGAWA">
+
+<!-- name="keywords":ページ内容を表すキーワード（３～５つくらい） -->
+    <meta name="keywords" content="html, css, javascript">
+    
+    <title>3回目：大学生のための情報・デジタルリテラシー</title>
+    <link rel="stylesheet" href="./main.css">
+    
+</head>
+
+<main>
+    <section>
+        
+        <button onclick="sayHello(0)">日本語</button>
+        <button onclick="sayHello(1)">英語</button>
+        <button onclick="sayHello(2)">フランス語</button>
+        <button onclick="sayHello(3)">スペイン語</button>
+        <button onclick="sayHello(4)">中国語</button>
+
+        <p1 id="say_hello">ここに各言語のあいさつが表示されます</p1>
+
+    </section>
+</main>
+
+<body>
+    <header>
+       <!-- h1-6：見出し、章・節・項のような文書構造に合わせた見出し -->
+        <h1 class="bnav">〈体育会サッカー部〉紹介ページ</li>
+        <nav class="anav">
+            <li>ホーム</li>
+            <li>タグリファレンス</li>
+            <li>問い合わせ</li>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2 class="cnav">集合写真</h2>
+             <img src="../第４回/img/S__315449346.jpg" alt="集合写真" width="400" height="270">
+        </section>
+
+        <section>
+            <h3>紹介文</h3>
+            <p>私たち、創価大学体育会サッカー部は、現在東京都大学サッカー2部リーグに所属しており、1部昇格を目指して日々活動しています。</p>
+            <p class="dnav">活動場所：創価大学ビクトリーグラウンド</p>
+
+        
+
+        </section>
+
+        <nav>
+            <a class="aa" href="./2.html">活動内容</a>
+        </nav>
+        
+       
+
+    
+    </main>
+
+    <footer>
+        copyright &copy; Hideaki HOSAKA, ALL Right Reserved
+    </footer>
+    <script src="./main.js"></script>
+
+    
+</body>
+</html>
